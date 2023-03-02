@@ -9,12 +9,27 @@
 </head>
 <body>
     <h1>Survey Page 2</h1>
-   <p> <a href="./thank-you.html"> Submit  </a> </p> 
-   <p>
-    <button onclick="window.location.href='thank-you.html';">
-        Submit Survey Results
-   </button>
-   </p>
-   <p> Page 2 of 2</p>
-</body>
-</html>
+
+    <form action="#" method="post">
+		<div class="form-group">
+			<label for="question1">Question 1: How much time do you spend on social media a day?</label>
+			<div class="radio-group">
+				<input type="radio" name="question1" id="question1-option1" value="option1">
+				<label for="question1-option1">Less than an hour</label>
+				<br>
+				<input type="radio" name="question1" id="question1-option2" value="option2">
+				<label for="question1-option2">Between 1 and 2 hours</label>
+				<br>
+				<input type="radio" name="question1" id="question1-option3" value="option3">
+				<label for="question1-option3">Over 2 hours</label>
+			</div>
+		</div>
+</form>
+
+        <p>
+            <button onclick="window.location.href='./survey-3.html';">
+                Go to page 3
+              </button>
+        </p>
+     </body>
+     </html>
